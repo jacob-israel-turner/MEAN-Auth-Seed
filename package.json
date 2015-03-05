@@ -1,0 +1,20 @@
+{
+  "name": "mean-auth-seed",
+  "version": "1.0.0",
+  "description": "MEAN seed using Google OAuth 2.0",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jacob-israel-turner/MEAN-Auth-Seed.git"
+  },
+  "author": "Jacob Turner",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jacob-israel-turner/MEAN-Auth-Seed/issues"
+  },
+  "homepage": "https://github.com/jacob-israel-turner/MEAN-Auth-Seed"
+}
