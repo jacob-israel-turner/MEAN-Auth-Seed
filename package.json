@@ -19,6 +19,9 @@
   "homepage": "https://github.com/jacob-israel-turner/MEAN-Auth-Seed",
   "dependencies": {
     "express": "^4.12.2",
-    "mongoose": "^3.8.24"
+    "express-session": "^1.10.3",
+    "mongoose": "^3.8.24",
+    "passport": "^0.2.1",
+    "passport-google-oauth": "^0.2.0"
   }
 }
