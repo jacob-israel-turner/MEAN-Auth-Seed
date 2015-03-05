@@ -16,5 +16,9 @@
   "bugs": {
     "url": "https://github.com/jacob-israel-turner/MEAN-Auth-Seed/issues"
   },
-  "homepage": "https://github.com/jacob-israel-turner/MEAN-Auth-Seed"
+  "homepage": "https://github.com/jacob-israel-turner/MEAN-Auth-Seed",
+  "dependencies": {
+    "express": "^4.12.2",
+    "mongoose": "^3.8.24"
+  }
 }
