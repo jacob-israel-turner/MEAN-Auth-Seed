@@ -35,7 +35,7 @@ passport.use(new GoogleStrategy({
 ));
 
 app.get('/auth/google',
-  passport.authenticate('google', { scope: 'openid profile email https://www.googleapis.com/auth/plus.login' }));
+  passport.authenticate('google', { scope: 'https://www.googleapis.com/auth/plus.login' }));
 
 app.get('/auth/google/callback', 
   passport.authenticate('google', { failureRedirect: '/login' }),
